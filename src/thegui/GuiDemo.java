@@ -21,14 +21,12 @@ public class GuiDemo{
     la.setBorder(border);
     la.setVerticalAlignment(JLabel.CENTER);
     la.setHorizontalAlignment(JLabel.CENTER);
-    //la.setBounds(50, 50, 250, 250)
-
-
+    //la.setBounds(50, 50, 250, 250
     JFrame frame = new JFrame();
-    frame.setSize(420, 420);
+    frame.setSize(500, 500);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setVisible(true);
+   // frame.setVisible(true);
 
-  //  MyFrame frame2 = new MyFrame();
+    MyFrame frame2 = new MyFrame();
     }
 }
