@@ -6,7 +6,7 @@ import java.io.*;
 public class GuiDemo{
     public static void main(String[] args){
      Border border = BorderFactory.createLineBorder(Color.green,3);
-    JFrame frame = new JFrame();
+
     ImageIcon img = new ImageIcon("C:\\Users\\dagim\\IdeaProjects\\finalexam\\src\\thegui\\images.png");
     JLabel la = new JLabel();
     la.setText("Bro, Whats up?");
@@ -21,13 +21,14 @@ public class GuiDemo{
     la.setBorder(border);
     la.setVerticalAlignment(JLabel.CENTER);
     la.setHorizontalAlignment(JLabel.CENTER);
-     la.setBounds(50, 50, 250, 250);
+    //la.setBounds(50, 50, 250, 250)
 
+
+    JFrame frame = new JFrame();
     frame.setSize(420, 420);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
-    frame.setLayout(null);
-    frame.add(la);
 
+  //  MyFrame frame2 = new MyFrame();
     }
 }
